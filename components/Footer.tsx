@@ -16,7 +16,7 @@ const CATEGORIES = [
   { label: 'Contact Us', href: '/contact-us' },
   { label: 'Terms and Conditions', href: '/terms-and-conditions' },
   { label: 'About Us', href: '/about-us' },
-    { label: 'About Us', href: '/complaints' },
+    { label: 'complaints', href: '/complaints' },
 
 ];
 
