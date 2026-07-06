@@ -35,7 +35,7 @@ export default function Footer() {
           </Link>
 
           <div className="text-sm text-[#333] leading-relaxed">
-            <p>Email: <a href="mailto:houseoffashion9139809@gmail.com" className="hover:text-(--color-gold)">houseoffashion338@gmail.com</a></p>
+            <p>Email: <a href="mailto:houseoffashion9139809@gmail.com" className="hover:text-(--color-gold)">houseoffashion9139809@gmail.com</a></p>
             <p>Call: <a href="tel:03175639776" className="hover:text-(--color-gold)">03175639776</a></p>
           </div>
 
