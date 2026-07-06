@@ -16,8 +16,7 @@ const CATEGORIES = [
   { label: 'Contact Us', href: '/contact-us' },
   { label: 'Terms and Conditions', href: '/terms-and-conditions' },
   { label: 'About Us', href: '/about-us' },
-    { label: 'complaints', href: '/complaints' },
-
+  { label: 'Complaints', href: '/complaints' },
 ];
 
 const SOCIALS = [
@@ -68,15 +67,13 @@ export default function Footer() {
           <ul className="space-y-1.5 text-sm text-[#444]">
             <li><Link href="/about-us" className="hover:text-(--color-gold)">About Us</Link></li>
             <li><Link href="/contact-us" className="hover:text-(--color-gold)">Contact Us</Link></li>
-            <li><Link href="/complaints" className="hover:text-(--color-gold)">Complaints</Link></li>
-         
           </ul>
         </div>
 
         <div>
           <h4 className="text-xs font-semibold tracking-widest uppercase mb-4">Customer Policies</h4>
           <ul className="space-y-1.5 text-sm text-[#444]">
-            <li><a href="#" className="hover:text-(--color-gold)">Complaints</a></li>
+            <li><Link href="/complaints" className="hover:text-(--color-gold)">Complaints</Link></li>
             <li><Link href="/terms-and-conditions" className="hover:text-(--color-gold)">Terms and Conditions</Link></li>
             <li><a href="#" className="hover:text-(--color-gold)">Privacy Policy</a></li>
           </ul>
