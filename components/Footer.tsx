@@ -13,6 +13,7 @@ const CATEGORIES = [
   { label: 'Festive Wear', href: '/festive-wear' },
   { label: 'New Arrival', href: '/new-arrival' },
   { label: 'Best Sellers', href: '/best-sellers' },
+  { label: 'Contact Us', href: '/contact-us' },
 ];
 
 const SOCIALS = [
