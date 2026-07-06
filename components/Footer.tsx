@@ -18,6 +18,7 @@ const CATEGORIES = [
   { label: 'About Us', href: '/about-us' },
   { label: 'Complaints', href: '/complaints' },
   { label: 'exchange-policy', href: '/exchange-policy' },
+   { label: 'privacy-policy', href: '/privacy-policy' },
 ];
 
 const SOCIALS = [
@@ -76,7 +77,7 @@ export default function Footer() {
           <ul className="space-y-1.5 text-sm text-[#444]">
             <li><Link href="/complaints" className="hover:text-(--color-gold)">Complaints</Link></li>
             <li><Link href="/terms-and-conditions" className="hover:text-(--color-gold)">Terms and Conditions</Link></li>
-            <li><a href="#" className="hover:text-(--color-gold)">Privacy Policy</a></li>
+            <li><a href="privacy-police" className="hover:text-(--color-gold)">privacy-policy</a></li>
           </ul>
         </div>
 
