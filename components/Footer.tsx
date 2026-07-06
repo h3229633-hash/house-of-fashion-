@@ -17,7 +17,7 @@ const CATEGORIES = [
 
 const SOCIALS = [
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61590552932423', icon: FaFacebook },
-  { name: 'Instagram', href: '#', icon: FaInstagram },
+  { name: 'Instagram', href: 'https://www.instagram.com/houseoffashion5639776/', icon: FaInstagram },
   { name: 'Twitter', href: '#', icon: FaTwitter },
 ];
 
