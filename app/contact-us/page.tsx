@@ -20,7 +20,7 @@ export default function ContactUsPage() {
 
       <div className="border border-black/10 rounded-2xl p-8 space-y-4 text-sm text-[#333] inline-block md:block text-left">
         <p>
-          <strong className="text-[#111]">Address:</strong> Islamabad, Abbottabad and all of Pakistan
+          <strong className="text-[#111]">Address:</strong> We deliver to Islamabad, Abbottabad, and all across Pakistan.
         </p>
         <p>
           <strong className="text-[#111]">Email:</strong>{" "}
