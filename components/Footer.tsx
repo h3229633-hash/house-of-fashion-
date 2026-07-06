@@ -14,6 +14,7 @@ const CATEGORIES = [
   { label: 'New Arrival', href: '/new-arrival' },
   { label: 'Best Sellers', href: '/best-sellers' },
   { label: 'Contact Us', href: '/contact-us' },
+  { label: 'terms-and-conditions', href: '/terms-and-conditions' },
 ];
 
 const SOCIALS = [
