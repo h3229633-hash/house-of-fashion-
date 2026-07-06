@@ -167,7 +167,7 @@ export default function DashboardPage() {
                     <br />
                     Pakistan
                     <br />
-                    +92 300 123 4567
+                    +92 3175639776
                     <br />
                     <a href="#" className="inline-block mt-3 text-xs text-(--color-gold) hover:underline">Edit</a>
                   </div>

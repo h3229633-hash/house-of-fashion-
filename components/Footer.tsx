@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const CATEGORIES = [
   { label: 'Stiched', href: '/stiched' },
   { label: 'Unstiched', href: '/unstiched' },
@@ -16,9 +16,9 @@ const CATEGORIES = [
 ];
 
 const SOCIALS = [
-  { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61590552932423' },
-  { name: 'Instagram', href: '#' },
-  { name: 'TikTok', href: '#' },
+  { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61590552932423', icon: FaFacebook },
+  { name: 'Instagram', href: '#', icon: FaInstagram },
+  { name: 'Twitter', href: '#', icon: FaTwitter },
 ];
 
 export default function Footer() {
@@ -36,11 +36,12 @@ export default function Footer() {
 
           <div className="text-sm text-[#333] leading-relaxed">
             <p>Email: <a href="mailto:houseoffashion338@gmail.com" className="hover:text-(--color-gold)">houseoffashion338@gmail.com</a></p>
-            <p>Call: <a href="tel:03296694167" className="hover:text-(--color-gold)">0329-6694167</a></p>
+            <p>Call: <a href="tel:03175639776" className="hover:text-(--color-gold)">03175639776</a></p>
           </div>
 
           <div className="flex gap-2.5">
             {SOCIALS.map((social) => {
+              const Icon = social.icon;
               return (
                 <a
                   key={social.name}
@@ -50,7 +51,7 @@ export default function Footer() {
                   aria-label={social.name}
                   className="w-8 h-8 rounded-full border border-[#111] flex items-center justify-center hover:bg-[#111] hover:text-white transition-colors"
                 >
-                  <span className="text-[10px]">{social.name.charAt(0)}</span>
+                  <Icon size={14} />
                 </a>
               );
             })}
