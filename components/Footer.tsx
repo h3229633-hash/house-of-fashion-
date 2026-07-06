@@ -75,7 +75,8 @@ export default function Footer() {
             <li><a href="#" className="hover:text-(--color-gold)">Complaints</a></li>
             <li><Link href="/terms-and-conditions" className="hover:text-(--color-gold)">Terms and Conditions</Link></li>
             <li><a href="#" className="hover:text-(--color-gold)">Privacy Policy</a></li>
-          </ul>
+         
+           <li><Link href="/about-us" className="hover:text-(--color-gold)">About Us</Link></li> </ul>
         </div>
 
         <div>
