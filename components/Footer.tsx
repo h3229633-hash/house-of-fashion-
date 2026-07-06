@@ -51,7 +51,7 @@ export default function Footer() {
                   aria-label={social.name}
                   className="w-8 h-8 rounded-full border border-[#111] flex items-center justify-center hover:bg-[#111] hover:text-white transition-colors"
                 >
-                  <Icon size={14} />
+                  <Icon size={24} />
                 </a>
               );
             })}
